@@ -1,3 +1,5 @@
+mod cli;
+mod scam;
 fn main() {
-    println!("Hello, world!");
+    cli::options_cli();
 }
